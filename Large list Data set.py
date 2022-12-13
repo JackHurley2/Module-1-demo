@@ -3,9 +3,16 @@ ages = [12,18,33,84,45,67,12,82,95,16,10,23,43,29,40,34,30,16,44,69,70,74,38,65,
 length = len(ages)
 counter = 0
 while counter <= length:
-    print (ages(counter))
-print(ages)    # whole array
-print(ages[1]) 
-print(ages[-1])# pentagon (loops backwards)
+   print (ages(counter))
+   counter +=1
+
+#while counter <= length:
+ #   ages[counter]
 
 
+newrange=[]
+while counter < length:
+    if ages[counter in range(16-65)]
+        newrange.append(ages[counter])
+    counter += 1
+print (newrange)
